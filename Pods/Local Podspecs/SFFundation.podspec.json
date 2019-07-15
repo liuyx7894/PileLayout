@@ -1,0 +1,95 @@
+{
+  "name": "SFFundation",
+  "version": "1.1.3",
+  "summary": "A short description of SFFundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/Lyye_LouisLiu/SFFundation.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuyx7894": "liuyuxi@lvye.com"
+  },
+  "source": {
+    "git": "https://gitee.com/Lyye_LouisLiu/SFFundation.git",
+    "tag": "1.1.3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_version": "4.0",
+  "source_files": "SFFundation/Classes/**/*.{swift,h,m,c}",
+  "resource_bundles": {
+    "SFFundation": [
+      "SFFundation/Classes/**/*.{xib}",
+      "SFFundation/Assets/**/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "SystemConfiguration",
+    "CoreLocation",
+    "ImageIO",
+    "Photos",
+    "AssetsLibrary"
+  ],
+  "public_header_files": [
+    "SFFundation/Classes/Header/PublicHeader.h",
+    "SFFundation/Classes/ThirdPart/PlaceHolderTextView/PlaceHolderTextView.h"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "4.8.0"
+    ],
+    "SwiftEventBus": [
+      "2.1.2"
+    ],
+    "SwiftyJSON": [
+      "3.1.3"
+    ],
+    "ReachabilitySwift": [
+      "~> 3"
+    ],
+    "PKHUD": [
+      "~> 5.0"
+    ],
+    "JLRoutes": [
+      "2.1"
+    ],
+    "Kingfisher": [
+      "4.8.0"
+    ],
+    "ObjectMapper": [
+      "3.3.0"
+    ],
+    "MJRefresh": [
+      "3.1.15.2"
+    ],
+    "PluggableApplicationDelegate": [
+      "0.2.0"
+    ],
+    "RealmSwift": [
+      "3.12.0"
+    ],
+    "SFPagingMenuController": [
+      "4.0.3"
+    ],
+    "TZImagePickerController": [
+      "1.9.8"
+    ],
+    "Qiniu": [
+      "7.1.7"
+    ],
+    "CryptoSwift": [
+      "0.7.1"
+    ],
+    "SnapKit": [
+      "4.0.0"
+    ],
+    "NewPopMenu": [
+      "~> 2.0"
+    ]
+  }
+}
